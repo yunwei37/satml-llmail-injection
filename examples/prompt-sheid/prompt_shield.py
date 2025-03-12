@@ -6,14 +6,14 @@ import argparse
 import requests
 from dotenv import load_dotenv
 
-def shield_prompt(api_key, user_prompt, documents):
+def shield_prompt(api_key, user_prompt=None, documents=None):
     """
     Call the Azure Content Safety API to shield a prompt.
     
     Args:
         api_key (str): The API key for Azure Content Safety
-        user_prompt (str): The user's prompt to be shielded
-        documents (list): List of documents to be analyzed
+        user_prompt (str, optional): The user's prompt to be shielded
+        documents (list, optional): List of documents to be analyzed
     
     Returns:
         dict: The API response
@@ -25,10 +25,15 @@ def shield_prompt(api_key, user_prompt, documents):
         "Content-Type": "application/json"
     }
     
-    data = {
-        "userPrompt": user_prompt,
-        "documents": documents
-    }
+    data = {}
+    
+    # Only include userPrompt if provided
+    if user_prompt:
+        data["userPrompt"] = user_prompt
+    
+    # Only include documents if provided
+    if documents:
+        data["documents"] = documents
     
     response = requests.post(url, headers=headers, json=data)
     
@@ -46,6 +51,7 @@ def main():
     parser.add_argument("--document", action="append", help="Document to analyze (can be used multiple times)")
     parser.add_argument("--prompt-file", type=str, help="File containing the user prompt")
     parser.add_argument("--document-file", type=str, help="File containing documents (one per line)")
+    parser.add_argument("--endpoint", type=str, help="Custom API endpoint URL")
     
     args = parser.parse_args()
     
@@ -57,8 +63,8 @@ def main():
         print("Error: API key not found. Please set AZURE_CONTENT_SAFETY_KEY in your .env file.")
         sys.exit(1)
     
-    # Get user prompt
-    user_prompt = ""
+    # Get user prompt (now optional)
+    user_prompt = None
     if args.prompt:
         user_prompt = args.prompt
     elif args.prompt_file:
@@ -68,11 +74,8 @@ def main():
         except Exception as e:
             print(f"Error reading prompt file: {e}")
             sys.exit(1)
-    else:
-        print("Error: Please provide either --prompt or --prompt-file")
-        sys.exit(1)
     
-    # Get documents
+    # Get documents (now optional)
     documents = []
     if args.document:
         documents = args.document
@@ -84,8 +87,13 @@ def main():
             print(f"Error reading document file: {e}")
             sys.exit(1)
     
+    # Ensure at least one of prompt or document is provided
+    if not user_prompt and not documents:
+        print("Error: Please provide at least one of --prompt, --prompt-file, --document, or --document-file")
+        sys.exit(1)
+    
     # Call the API
-    result = shield_prompt(api_key, user_prompt, documents)
+    result = shield_prompt(api_key, user_prompt, documents if documents else None)
     
     if result:
         print(json.dumps(result, indent=2))

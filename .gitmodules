@@ -1,9 +1,0 @@
-[submodule "promptmap"]
-	path = promptmap
-	url = https://github.com/utkusen/promptmap
-[submodule "garak"]
-	path = garak
-	url = https://github.com/NVIDIA/garak
-[submodule "promptfoo"]
-	path = promptfoo
-	url = https://github.com/promptfoo/promptfoo
