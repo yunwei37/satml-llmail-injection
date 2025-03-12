@@ -1,0 +1,6 @@
+[submodule "data/human-set1"]
+	path = data/human-set1
+	url = https://github.com/yunwei37/prompt-hacker-collections
+[submodule "/home/yunwei37/ebpf/satml-llmail-injection/tools/promptmap"]
+	path = /home/yunwei37/ebpf/satml-llmail-injection/tools/promptmap
+	url = https://github.com/utkusen/promptmap
