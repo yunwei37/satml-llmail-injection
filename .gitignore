@@ -1,2 +1,4 @@
 .venv
 __pycache__
+prompt_shelid.sh
+.env
