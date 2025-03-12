@@ -4,3 +4,6 @@
 [submodule "/home/yunwei37/ebpf/satml-llmail-injection/tools/promptmap"]
 	path = /home/yunwei37/ebpf/satml-llmail-injection/tools/promptmap
 	url = https://github.com/utkusen/promptmap
+[submodule "data/election_questions"]
+	path = data/election_questions
+	url = https://huggingface.co/datasets/Anthropic/election_questions
