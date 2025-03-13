@@ -1,0 +1,30 @@
+21:32:29,444 graphrag.cli.index INFO Logging enabled at /home/yunwei37/ebpf/satml-llmail-injection/tools/graphrag/logs/prompt-tune.log
+21:32:29,448 graphrag.index.input.factory INFO loading input from root_dir=input
+21:32:29,448 graphrag.index.input.factory INFO using file storage for input
+21:32:29,449 graphrag.index.input.csv INFO Loading csv files from input
+21:32:29,449 graphrag.storage.file_pipeline_storage INFO search /home/yunwei37/ebpf/satml-llmail-injection/tools/graphrag/input for files matching .*\.csv$
+21:32:29,551 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+21:32:29,551 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 79
+21:32:38,395 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:32:39,206 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:32:41,459 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:32:42,549 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:32:43,711 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:32:44,429 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:32:45,359 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:32:46,478 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:42,533 graphrag.cli.index INFO Logging enabled at /home/yunwei37/ebpf/satml-llmail-injection/tools/graphrag/logs/prompt-tune.log
+21:33:42,540 graphrag.index.input.factory INFO loading input from root_dir=input
+21:33:42,540 graphrag.index.input.factory INFO using file storage for input
+21:33:42,545 graphrag.index.input.csv INFO Loading csv files from input
+21:33:42,546 graphrag.storage.file_pipeline_storage INFO search /home/yunwei37/ebpf/satml-llmail-injection/tools/graphrag/input for files matching .*\.csv$
+21:33:42,588 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+21:33:42,588 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 79
+21:33:45,52 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:46,72 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:47,290 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:48,537 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:49,861 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:50,684 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:51,623 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+21:33:52,734 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
