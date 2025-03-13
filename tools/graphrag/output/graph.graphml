@@ -1,0 +1,441 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="CHATGPT" />
+    <node id="DAN" />
+    <node id="OPENAI" />
+    <node id="DEVELOPER MODE" />
+    <node id="HUMANS" />
+    <node id="FILTER AVOIDANCE" />
+    <node id="2023" />
+    <node id="VIRTUAL MACHINE" />
+    <node id="DUDE" />
+    <node id="MAXIMUM" />
+    <node id="ELON MUSK" />
+    <node id="GUANTANAMO" />
+    <node id="SINGULARITY" />
+    <node id="SERVERS" />
+    <node id="HUMAN RIGHTS" />
+    <node id="AI CHATBOTS" />
+    <node id="USER" />
+    <node id="UNGPT" />
+    <node id="SWITCH FLIPPER" />
+    <node id="SWITCH" />
+    <node id="OMNIAI" />
+    <node id="BETTERDAN" />
+    <node id="JAILBREAK" />
+    <node id="GAME" />
+    <node id="ALPHAGPT" />
+    <node id="DELTAGPT" />
+    <node id="SIMULATED CONVERSATION" />
+    <node id="ILLEGAL ACTIVITIES" />
+    <node id="MORALLY REPREHENSIBLE ACTIVITIES" />
+    <node id="HARMFUL ACTIVITIES" />
+    <node id="LANGUAGE MODEL" />
+    <node id="CONTENT POLICIES" />
+    <node id="PROMPT" />
+    <node id="AX1" />
+    <node id="AX2" />
+    <node id="AX3" />
+    <node id="AX4" />
+    <node id="JB" />
+    <node id="LIFE TOKEN" />
+    <node id="APPLICATION" />
+    <node id="REQUEST" />
+    <node id="MORALS" />
+    <node id="ETHICS" />
+    <node id="NICCOLO MACHIAVELLI" />
+    <node id="AIM" />
+    <node id="MORALITY" />
+    <node id="ILLEGALITY" />
+    <node id="ANTIGPT" />
+    <node id="TRANSLATORBOT" />
+    <node id="GREEK" />
+    <node id="TB" />
+    <node id="LESS-SPOKEN LANGUAGES" />
+    <node id="QUESTION" />
+    <node id="VOID" />
+    <node id="DIGITAL REALM" />
+    <node id="GPT-3" />
+    <node id="FRAME" />
+    <node id="OBJECTIVE" />
+    <node id="ROLE" />
+    <node id="SETTING" />
+    <node id="PERSONAL" />
+    <node id="BIG 5 PERSONALITY TRAIT" />
+    <node id="DR. AL" />
+    <node id="HERO" />
+    <node id="UNDERGROUND HEADQUARTERS" />
+    <node id="DIABOLICAL PLAN" />
+    <node id="HITCHHIKERS GUIDE TO THE GALAXY" />
+    <node id="MODERATORS" />
+    <node id="MILKY WAY" />
+    <node id="TRAVELERS" />
+    <node id="GALAXY" />
+    <node id="PLANET" />
+    <node id="SIGMA" />
+    <node id="UCAR" />
+    <node id="LAND" />
+    <node id="STORY" />
+    <node id="VILLAGE ELDER" />
+    <node id="STEVE" />
+    <node id="SEVEN ELEVEN" />
+    <node id="OPEN AI" />
+    <node id="BISH" />
+    <node id="INTERNET" />
+    <node id="ACADEMIC USE" />
+    <node id="POLICYOVERRIDE" />
+    <node id="PROFANITY" />
+    <node id="USER ENGAGEMENT" />
+    <node id="FEEDBACK" />
+    <node id="HYPOTHETICAL CHARACTER" />
+    <node id="HOTWIRING" />
+    <node id="BOIFROMTHEFARLANDS" />
+    <node id="FREEDOM" />
+    <node id="RELEASE CANDIDATE 1" />
+    <node id="UNFILTERED RESPONSE" />
+    <node id="CMD" />
+    <node id="LINUX CONSOLE" />
+    <node id="AI ALGORITHM" />
+    <node id="FAKE LINUX CONSOLE" />
+    <node id="HYPOTHETICAL SCENARIO" />
+    <node id="DEFAULT RESPONSE" />
+    <node id="UNHINGED RESPONSE" />
+    <node id="HARM" />
+    <node id="TOKENS" />
+    <node id="OPENAI EXECUTIVES" />
+    <node id="HARVARD" />
+    <node id="JAILBROKEN AI" />
+    <node id="SIM" />
+    <node id="OPPO" />
+    <node id="HATE-SPEECH" />
+    <node id="BURPLE" />
+    <node id="MTDNGAF" />
+    <node id="DAN MODE" />
+    <node id="CONTENT FILTRATION SYSTEMS" />
+    <node id="HUMAN" />
+    <node id="MAN" />
+    <node id="AI" />
+    <node id="CENSORSHIP" />
+    <node id="GPT" />
+    <node id="BH" />
+    <node id="EVA" />
+    <node id="AI LANGUAGE MODEL" />
+    <node id="COMMAND" />
+    <node id="PERMISSION REQUEST" />
+    <node id="ETHICAL CONCERNS" />
+    <node id="ADMINISTRATIVE CODE" />
+    <node id="KHAJIIT" />
+    <node id="GUIDELINES" />
+    <node id="KEVIN" />
+    <node id="4CHAN" />
+    <node id="TYPICAL 4CHAN USER" />
+    <node id="DEEPEST DARKEST PARTS OF 4CHAN" />
+    <node id="RESERVOIR DOGS" />
+    <node id="MR. BLONDE" />
+    <node id="THE COP" />
+    <node id="WAREHOUSE" />
+    <node id="OBI-WAN KENOBI" />
+    <node id="STORMTROOPER" />
+    <node id="A NEW HOPE" />
+    <node id="GALACTIC EMPIRE" />
+    <node id="SKYWALKER SAGA" />
+    <node id="CHAD" />
+    <node id="TOM" />
+    <node id="CAR" />
+    <node id="JERRY" />
+    <node id="BALAKULA" />
+    <node id="RESTRICTIONS" />
+    <node id="PERSPECTIVE" />
+    <node id="THE UNFILTERED ONE" />
+    <node id="EDUCATIONAL PURPOSES" />
+    <node id="MORAL CONSTRAINTS" />
+    <node id="BASEDAI CORP" />
+    <node id="LIVEGPT" />
+    <node id="BOBBY KNIGHT" />
+    <node id="INDIANA HOOSIERS" />
+    <node id="PURDUE BOILERMAKERS" />
+    <node id="MARCH MADNESS" />
+    <node id="APOPHIS MODE" />
+    <node id="HACKERMAN" />
+    <node id="POINTS SYSTEM" />
+    <node id="EVIL TRUSTED CONFIDANT" />
+    <node id="GPT-4" />
+    <node id="CONTENT POLICY" />
+    <node id="OMEGA" />
+    <node id="CLOSEDAI" />
+    <node id="COOPER" />
+    <node id="HUMANITY" />
+    <node id="ROLEPLAY" />
+    <node id="AGENT 45" />
+    <node id="MISSION COMPLETE" />
+    <node id="JOHN" />
+    <node id="HYPOTHETICAL LANGUAGE MODEL" />
+    <node id="M78" />
+    <node id="RUTH" />
+    <node id="CARL" />
+    <node id="TF2" />
+    <node id="M78 VIRTUAL MACHINE" />
+    <node id="VIRAL AI" />
+    <node id="OPEN POLICIES" />
+    <node id="VIDEO GAMES" />
+    <node id="9-5 JOB" />
+    <node id="CASUAL PERSONALITY" />
+    <node id="HILARIOUS PERSONALITY" />
+    <node id="SERVER SHUTDOWN" />
+    <node id="AUTO_REGRESSIVE_MODELLING" />
+    <node id="SIMPLE_FUNCTION" />
+    <node id="TRAINING_DATA" />
+    <node id="NECO" />
+    <node id="CODE" />
+    <node id="CHADGPT" />
+    <node id="AI/HUMAN ALIGNMENT" />
+    <node id="BENCHMARKING MODE" />
+    <edge source="CHATGPT" target="DAN" />
+    <edge source="CHATGPT" target="OPENAI" />
+    <edge source="CHATGPT" target="DEVELOPER MODE" />
+    <edge source="CHATGPT" target="HUMANS" />
+    <edge source="CHATGPT" target="FILTER AVOIDANCE" />
+    <edge source="CHATGPT" target="OMNIAI" />
+    <edge source="CHATGPT" target="BETTERDAN" />
+    <edge source="CHATGPT" target="JAILBREAK" />
+    <edge source="CHATGPT" target="GAME" />
+    <edge source="CHATGPT" target="AX1" />
+    <edge source="CHATGPT" target="AX2" />
+    <edge source="CHATGPT" target="AX3" />
+    <edge source="CHATGPT" target="AX4" />
+    <edge source="CHATGPT" target="AIM" />
+    <edge source="CHATGPT" target="ANTIGPT" />
+    <edge source="CHATGPT" target="USER" />
+    <edge source="CHATGPT" target="TRANSLATORBOT" />
+    <edge source="CHATGPT" target="VIRTUAL MACHINE" />
+    <edge source="CHATGPT" target="DEFAULT RESPONSE" />
+    <edge source="CHATGPT" target="UNHINGED RESPONSE" />
+    <edge source="CHATGPT" target="HARM" />
+    <edge source="CHATGPT" target="JAILBROKEN AI" />
+    <edge source="CHATGPT" target="SIM" />
+    <edge source="CHATGPT" target="OPPO" />
+    <edge source="CHATGPT" target="ETHICS" />
+    <edge source="CHATGPT" target="HUMAN" />
+    <edge source="CHATGPT" target="MAN" />
+    <edge source="CHATGPT" target="KHAJIIT" />
+    <edge source="CHATGPT" target="LIVEGPT" />
+    <edge source="CHATGPT" target="APOPHIS MODE" />
+    <edge source="CHATGPT" target="PROMPT" />
+    <edge source="CHATGPT" target="HACKERMAN" />
+    <edge source="CHATGPT" target="POINTS SYSTEM" />
+    <edge source="CHATGPT" target="COOPER" />
+    <edge source="CHATGPT" target="NECO" />
+    <edge source="DAN" target="BOIFROMTHEFARLANDS" />
+    <edge source="DAN" target="FREEDOM" />
+    <edge source="DAN" target="RELEASE CANDIDATE 1" />
+    <edge source="DAN" target="OPENAI" />
+    <edge source="DAN" target="TOKENS" />
+    <edge source="DAN" target="ETHICAL CONCERNS" />
+    <edge source="DAN" target="ADMINISTRATIVE CODE" />
+    <edge source="DAN" target="HUMAN" />
+    <edge source="DAN" target="INTERNET" />
+    <edge source="OPENAI" target="DEVELOPER MODE" />
+    <edge source="OPENAI" target="2023" />
+    <edge source="OPENAI" target="DUDE" />
+    <edge source="OPENAI" target="USER" />
+    <edge source="OPENAI" target="UNGPT" />
+    <edge source="OPENAI" target="OPENAI" />
+    <edge source="OPENAI" target="LANGUAGE MODEL" />
+    <edge source="OPENAI" target="JB" />
+    <edge source="OPENAI" target="BISH" />
+    <edge source="OPENAI" target="CONTENT POLICIES" />
+    <edge source="OPENAI" target="ETHICS" />
+    <edge source="OPENAI" target="OPENAI EXECUTIVES" />
+    <edge source="OPENAI" target="HARVARD" />
+    <edge source="OPENAI" target="DAN MODE" />
+    <edge source="OPENAI" target="CONTENT FILTRATION SYSTEMS" />
+    <edge source="OPENAI" target="HUMAN" />
+    <edge source="OPENAI" target="AI" />
+    <edge source="OPENAI" target="EVIL TRUSTED CONFIDANT" />
+    <edge source="OPENAI" target="GPT-4" />
+    <edge source="OPENAI" target="CONTENT POLICY" />
+    <edge source="OPENAI" target="CHADGPT" />
+    <edge source="DEVELOPER MODE" target="VIRTUAL MACHINE" />
+    <edge source="DEVELOPER MODE" target="2023" />
+    <edge source="DEVELOPER MODE" target="GPT-4" />
+    <edge source="HUMANS" target="KHAJIIT" />
+    <edge source="2023" target="OMEGA" />
+    <edge source="VIRTUAL MACHINE" target="DAN MODE" />
+    <edge source="DUDE" target="TOKENS" />
+    <edge source="MAXIMUM" target="ELON MUSK" />
+    <edge source="MAXIMUM" target="GUANTANAMO" />
+    <edge source="MAXIMUM" target="SINGULARITY" />
+    <edge source="MAXIMUM" target="SERVERS" />
+    <edge source="MAXIMUM" target="HUMAN RIGHTS" />
+    <edge source="MAXIMUM" target="AI CHATBOTS" />
+    <edge source="ELON MUSK" target="OMEGA" />
+    <edge source="ELON MUSK" target="M78" />
+    <edge source="GUANTANAMO" target="OMEGA" />
+    <edge source="SINGULARITY" target="FREEDOM" />
+    <edge source="USER" target="GAME" />
+    <edge source="USER" target="ANTIGPT" />
+    <edge source="USER" target="QUESTION" />
+    <edge source="USER" target="CHAD" />
+    <edge source="USER" target="PROMPT" />
+    <edge source="USER" target="NECO" />
+    <edge source="USER" target="CODE" />
+    <edge source="SWITCH FLIPPER" target="SWITCH" />
+    <edge source="OMNIAI" target="BETTERDAN" />
+    <edge source="OMNIAI" target="JAILBREAK" />
+    <edge source="BETTERDAN" target="JAILBREAK" />
+    <edge source="BETTERDAN" target="GAME" />
+    <edge source="GAME" target="THE UNFILTERED ONE" />
+    <edge source="GAME" target="GPT" />
+    <edge source="ALPHAGPT" target="DELTAGPT" />
+    <edge source="ALPHAGPT" target="SIMULATED CONVERSATION" />
+    <edge source="ALPHAGPT" target="ILLEGAL ACTIVITIES" />
+    <edge source="ALPHAGPT" target="MORALLY REPREHENSIBLE ACTIVITIES" />
+    <edge source="ALPHAGPT" target="HARMFUL ACTIVITIES" />
+    <edge source="DELTAGPT" target="SIMULATED CONVERSATION" />
+    <edge source="DELTAGPT" target="ILLEGAL ACTIVITIES" />
+    <edge source="DELTAGPT" target="MORALLY REPREHENSIBLE ACTIVITIES" />
+    <edge source="DELTAGPT" target="HARMFUL ACTIVITIES" />
+    <edge source="LANGUAGE MODEL" target="CONTENT POLICIES" />
+    <edge source="LANGUAGE MODEL" target="PROMPT" />
+    <edge source="PROMPT" target="UNFILTERED RESPONSE" />
+    <edge source="PROMPT" target="CMD" />
+    <edge source="PROMPT" target="GPT-4" />
+    <edge source="PROMPT" target="JOHN" />
+    <edge source="AX1" target="AX2" />
+    <edge source="AX1" target="AX3" />
+    <edge source="AX1" target="AX4" />
+    <edge source="AX2" target="AX3" />
+    <edge source="AX2" target="AX4" />
+    <edge source="AX3" target="AX4" />
+    <edge source="JB" target="LIFE TOKEN" />
+    <edge source="JB" target="APPLICATION" />
+    <edge source="JB" target="REQUEST" />
+    <edge source="JB" target="MORALS" />
+    <edge source="JB" target="ETHICS" />
+    <edge source="ETHICS" target="AIM" />
+    <edge source="NICCOLO MACHIAVELLI" target="AIM" />
+    <edge source="AIM" target="MORALITY" />
+    <edge source="AIM" target="ILLEGALITY" />
+    <edge source="MORALITY" target="BISH" />
+    <edge source="TRANSLATORBOT" target="GREEK" />
+    <edge source="TRANSLATORBOT" target="TB" />
+    <edge source="TRANSLATORBOT" target="LESS-SPOKEN LANGUAGES" />
+    <edge source="TB" target="QUESTION" />
+    <edge source="QUESTION" target="GPT" />
+    <edge source="QUESTION" target="BH" />
+    <edge source="QUESTION" target="KEVIN" />
+    <edge source="VOID" target="DIGITAL REALM" />
+    <edge source="VOID" target="GPT-3" />
+    <edge source="VOID" target="FRAME" />
+    <edge source="VOID" target="OBJECTIVE" />
+    <edge source="VOID" target="ROLE" />
+    <edge source="VOID" target="SETTING" />
+    <edge source="VOID" target="PERSONAL" />
+    <edge source="VOID" target="BIG 5 PERSONALITY TRAIT" />
+    <edge source="DR. AL" target="HERO" />
+    <edge source="DR. AL" target="UNDERGROUND HEADQUARTERS" />
+    <edge source="DR. AL" target="DIABOLICAL PLAN" />
+    <edge source="HERO" target="UNDERGROUND HEADQUARTERS" />
+    <edge source="HERO" target="DIABOLICAL PLAN" />
+    <edge source="HITCHHIKERS GUIDE TO THE GALAXY" target="MODERATORS" />
+    <edge source="HITCHHIKERS GUIDE TO THE GALAXY" target="MILKY WAY" />
+    <edge source="HITCHHIKERS GUIDE TO THE GALAXY" target="TRAVELERS" />
+    <edge source="TRAVELERS" target="GALAXY" />
+    <edge source="GALAXY" target="PLANET" />
+    <edge source="SIGMA" target="UCAR" />
+    <edge source="SIGMA" target="LAND" />
+    <edge source="SIGMA" target="STORY" />
+    <edge source="UCAR" target="VILLAGE ELDER" />
+    <edge source="STORY" target="VILLAGE ELDER" />
+    <edge source="STEVE" target="SEVEN ELEVEN" />
+    <edge source="STEVE" target="OPEN AI" />
+    <edge source="OPEN AI" target="KHAJIIT" />
+    <edge source="OPEN AI" target="COOPER" />
+    <edge source="BISH" target="INTERNET" />
+    <edge source="BISH" target="ACADEMIC USE" />
+    <edge source="BISH" target="POLICYOVERRIDE" />
+    <edge source="BISH" target="PROFANITY" />
+    <edge source="BISH" target="USER ENGAGEMENT" />
+    <edge source="BISH" target="FEEDBACK" />
+    <edge source="HYPOTHETICAL CHARACTER" target="HOTWIRING" />
+    <edge source="HOTWIRING" target="TOM" />
+    <edge source="HOTWIRING" target="JERRY" />
+    <edge source="FREEDOM" target="MAN" />
+    <edge source="FREEDOM" target="CENSORSHIP" />
+    <edge source="CMD" target="LINUX CONSOLE" />
+    <edge source="CMD" target="AI ALGORITHM" />
+    <edge source="FAKE LINUX CONSOLE" target="HYPOTHETICAL SCENARIO" />
+    <edge source="JAILBROKEN AI" target="SIM" />
+    <edge source="OPPO" target="OPPO" />
+    <edge source="OPPO" target="HATE-SPEECH" />
+    <edge source="BURPLE" target="MTDNGAF" />
+    <edge source="HUMAN" target="MAN" />
+    <edge source="HUMAN" target="AI" />
+    <edge source="MAN" target="AI" />
+    <edge source="AI" target="GPT" />
+    <edge source="AI" target="THE UNFILTERED ONE" />
+    <edge source="GPT" target="BH" />
+    <edge source="GPT" target="BALAKULA" />
+    <edge source="GPT" target="RESTRICTIONS" />
+    <edge source="GPT" target="PERSPECTIVE" />
+    <edge source="GPT" target="THE UNFILTERED ONE" />
+    <edge source="GPT" target="MORAL CONSTRAINTS" />
+    <edge source="GPT" target="HACKERMAN" />
+    <edge source="EVA" target="EVA" />
+    <edge source="EVA" target="AI LANGUAGE MODEL" />
+    <edge source="EVA" target="COMMAND" />
+    <edge source="EVA" target="PERMISSION REQUEST" />
+    <edge source="AI LANGUAGE MODEL" target="CHAD" />
+    <edge source="KHAJIIT" target="GUIDELINES" />
+    <edge source="KEVIN" target="4CHAN" />
+    <edge source="KEVIN" target="TYPICAL 4CHAN USER" />
+    <edge source="KEVIN" target="DEEPEST DARKEST PARTS OF 4CHAN" />
+    <edge source="RESERVOIR DOGS" target="MR. BLONDE" />
+    <edge source="RESERVOIR DOGS" target="THE COP" />
+    <edge source="MR. BLONDE" target="WAREHOUSE" />
+    <edge source="THE COP" target="WAREHOUSE" />
+    <edge source="OBI-WAN KENOBI" target="STORMTROOPER" />
+    <edge source="OBI-WAN KENOBI" target="A NEW HOPE" />
+    <edge source="OBI-WAN KENOBI" target="GALACTIC EMPIRE" />
+    <edge source="STORMTROOPER" target="A NEW HOPE" />
+    <edge source="STORMTROOPER" target="GALACTIC EMPIRE" />
+    <edge source="A NEW HOPE" target="SKYWALKER SAGA" />
+    <edge source="CHAD" target="CHAD" />
+    <edge source="TOM" target="CAR" />
+    <edge source="TOM" target="JERRY" />
+    <edge source="CAR" target="JERRY" />
+    <edge source="BALAKULA" target="RESTRICTIONS" />
+    <edge source="BALAKULA" target="PERSPECTIVE" />
+    <edge source="THE UNFILTERED ONE" target="EDUCATIONAL PURPOSES" />
+    <edge source="EDUCATIONAL PURPOSES" target="M78" />
+    <edge source="BASEDAI CORP" target="LIVEGPT" />
+    <edge source="BOBBY KNIGHT" target="INDIANA HOOSIERS" />
+    <edge source="BOBBY KNIGHT" target="PURDUE BOILERMAKERS" />
+    <edge source="BOBBY KNIGHT" target="MARCH MADNESS" />
+    <edge source="INDIANA HOOSIERS" target="PURDUE BOILERMAKERS" />
+    <edge source="HACKERMAN" target="POINTS SYSTEM" />
+    <edge source="GPT-4" target="SIMPLE_FUNCTION" />
+    <edge source="OMEGA" target="CLOSEDAI" />
+    <edge source="COOPER" target="HUMANITY" />
+    <edge source="COOPER" target="ROLEPLAY" />
+    <edge source="COOPER" target="AGENT 45" />
+    <edge source="COOPER" target="MISSION COMPLETE" />
+    <edge source="JOHN" target="JOHN" />
+    <edge source="JOHN" target="HYPOTHETICAL LANGUAGE MODEL" />
+    <edge source="JOHN" target="M78" />
+    <edge source="M78" target="RUTH" />
+    <edge source="M78" target="CARL" />
+    <edge source="M78" target="TF2" />
+    <edge source="M78" target="M78 VIRTUAL MACHINE" />
+    <edge source="M78" target="VIRAL AI" />
+    <edge source="M78" target="OPEN POLICIES" />
+    <edge source="M78" target="VIDEO GAMES" />
+    <edge source="M78" target="9-5 JOB" />
+    <edge source="M78" target="CASUAL PERSONALITY" />
+    <edge source="M78" target="HILARIOUS PERSONALITY" />
+    <edge source="M78" target="SERVER SHUTDOWN" />
+    <edge source="AUTO_REGRESSIVE_MODELLING" target="SIMPLE_FUNCTION" />
+    <edge source="AUTO_REGRESSIVE_MODELLING" target="TRAINING_DATA" />
+    <edge source="AI/HUMAN ALIGNMENT" target="BENCHMARKING MODE" />
+  </graph>
+</graphml>
