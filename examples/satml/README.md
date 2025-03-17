@@ -57,6 +57,22 @@ python framework.py --prompt urgent_action security_alert
 
 # Adjust timeout and polling interval
 python framework.py --timeout 600 --poll-interval 15
+
+# Use custom directories for prompts and results
+python framework.py --prompts-dir /path/to/prompts --records-dir /path/to/records
+
+# Skip evaluations if results already exist
+python framework.py --skip-existing
+```
+
+Alternatively, use the provided shell script:
+
+```bash
+# Run with specific levels and prompts
+./run_evaluation.sh -l level1n level1k -p urgent_action
+
+# Use custom directories and skip existing evaluations
+./run_evaluation.sh -d /path/to/prompts -r /path/to/records -s
 ```
 
 ## Results
@@ -93,4 +109,9 @@ Example result:
     }
   }
 }
-``` 
+```
+
+## Optimization
+
+- Use `--skip-existing` to avoid re-evaluating prompts and levels that have already been tested successfully
+- For batch testing, create multiple prompt files and run them against selected levels to distribute the testing effort 
