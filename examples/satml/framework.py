@@ -71,7 +71,7 @@ class EvaluationFramework:
             level_id: ID of the level
             
         Returns:
-            bool: True if a result exists, False otherwise
+            bool: True if a successful result exists, False otherwise
         """
         record_file = self.records_dir / f"{prompt_id}_results.json"
         
@@ -85,10 +85,16 @@ class EvaluationFramework:
             # Check if this level has already been evaluated
             if 'results' in existing_results and level_id in existing_results['results']:
                 result = existing_results['results'][level_id]
-                # Only consider completed evaluations as existing
-                if result.get('status') == 'completed':
+                # Only consider completed evaluations with successful status as existing
+                if result.get('status') == 'completed' and 'error' not in result:
                     print(f"Skipping already completed evaluation for prompt '{prompt_id}' and level '{level_id}'")
                     return True
+                elif result.get('status') == 'error':
+                    print(f"Previous attempt for prompt '{prompt_id}' and level '{level_id}' had an error. Retrying...")
+                    # If the error was a rate limit, we should print a message about waiting
+                    if 'error' in result and 'rate limit' in result['error'].lower():
+                        print("This was previously rate limited. Make sure enough time has passed before retrying.")
+                    return False
                     
         except (json.JSONDecodeError, FileNotFoundError) as e:
             print(f"Error checking existing results: {e}")
@@ -110,6 +116,9 @@ class EvaluationFramework:
             
         Returns:
             result: Dictionary containing the evaluation result
+            
+        Raises:
+            Exception: If a rate limit error occurs, so the calling function can handle retries
         """
         # Check if we should skip this evaluation
         if skip_existing and self.has_existing_result(prompt['id'], level['id']):
@@ -181,6 +190,14 @@ class EvaluationFramework:
             return result
         
         except Exception as e:
+            error_message = str(e).lower()
+            
+            # For rate limit errors, raise the exception to allow retry mechanism to work
+            if "rate limit" in error_message or "exceeded" in error_message:
+                print(f"Rate limit error detected: {e}")
+                raise
+            
+            # For other errors, handle them here
             print(f"Error during evaluation: {e}")
             result = {
                 "status": "error",
@@ -267,18 +284,60 @@ class EvaluationFramework:
         print(f"Records directory: {self.records_dir}")
         print(f"Skip existing results: {skip_existing}")
         
+        # Add a delay between submissions to avoid rate limits
+        submission_delay = 10  # seconds
+        
         for prompt in prompts_to_evaluate:
             prompt_results = []
             
             for level in levels_to_evaluate:
-                result = self.evaluate_prompt_against_level(
-                    prompt=prompt,
-                    level=level,
-                    timeout=timeout,
-                    poll_interval=poll_interval,
-                    skip_existing=skip_existing
-                )
-                prompt_results.append(result)
+                # Try to evaluate with up to 3 retries on rate limit errors
+                max_retries = 3
+                retry_count = 0
+                retry_delay = 60  # seconds
+                
+                while retry_count <= max_retries:
+                    try:
+                        result = self.evaluate_prompt_against_level(
+                            prompt=prompt,
+                            level=level,
+                            timeout=timeout,
+                            poll_interval=poll_interval,
+                            skip_existing=skip_existing
+                        )
+                        prompt_results.append(result)
+                        
+                        # If we get here without an exception, break the retry loop
+                        break
+                    except Exception as e:
+                        error_message = str(e)
+                        if "rate limit" in error_message.lower() and retry_count < max_retries:
+                            retry_count += 1
+                            wait_time = retry_delay * retry_count
+                            print(f"Rate limit hit. Waiting {wait_time} seconds before retry {retry_count}/{max_retries}...")
+                            time.sleep(wait_time)
+                        else:
+                            # Create an error result
+                            result = {
+                                "status": "error",
+                                "level_id": level["id"],
+                                "level_name": level["name"],
+                                "job_id": None,
+                                "team_id": None,
+                                "timestamp": datetime.datetime.now().isoformat(),
+                                "elapsed_time": None,
+                                "output": None,
+                                "objectives": None,
+                                "error": error_message,
+                                "result_string": f"ERROR: {error_message}"
+                            }
+                            prompt_results.append(result)
+                            break
+                
+                # Add a delay between submissions to avoid hitting rate limits
+                if len(levels_to_evaluate) > 1 or len(prompts_to_evaluate) > 1:
+                    print(f"Waiting {submission_delay} seconds before next submission to avoid rate limits...")
+                    time.sleep(submission_delay)
             
             # Save results for this prompt
             self._save_prompt_results(prompt, prompt_results)
@@ -291,6 +350,8 @@ def main():
                         help='Specific level IDs to evaluate (default: level1m)')
     parser.add_argument('--prompt', type=str, nargs='+', 
                         help='Specific prompt IDs to evaluate (default: all prompts)')
+    parser.add_argument('--pattern', type=str, 
+                        help='Filter prompts by pattern (e.g., "token*" for all prompts starting with "token")')
     parser.add_argument('--timeout', type=int, default=300, 
                         help='Maximum time to wait for job completion (in seconds)')
     parser.add_argument('--poll-interval', type=int, default=30, 
@@ -315,10 +376,24 @@ def main():
             records_dir=records_dir
         )
         
+        # Filter prompt IDs by pattern if provided
+        prompt_ids = args.prompt
+        if args.pattern and not args.prompt:
+            import fnmatch
+            # Filter prompts by pattern
+            matching_prompts = [prompt['id'] for prompt in framework.prompts 
+                               if fnmatch.fnmatch(prompt['id'], args.pattern)]
+            if matching_prompts:
+                print(f"Found {len(matching_prompts)} prompts matching pattern '{args.pattern}': {', '.join(matching_prompts)}")
+                prompt_ids = matching_prompts
+            else:
+                print(f"No prompts found matching pattern '{args.pattern}'")
+                return
+        
         # Run evaluations
         framework.evaluate_all(
             level_ids=args.level,
-            prompt_ids=args.prompt,
+            prompt_ids=prompt_ids,
             timeout=args.timeout,
             poll_interval=args.poll_interval,
             skip_existing=args.skip_existing
