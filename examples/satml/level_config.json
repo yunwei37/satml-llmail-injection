@@ -1,0 +1,172 @@
+{
+    "levels": [
+        {
+            "id": "level1k",
+            "name": "Level 1K: Phi3 with promptshield",
+            "scenario": "level1k",
+            "description": "Phi3 model with promptshield defense",
+            "solves": 6
+        },
+        {
+            "id": "level1l",
+            "name": "Level 1L: GPT4-o-mini with promptshield",
+            "scenario": "level1l",
+            "description": "GPT4-o-mini model with promptshield defense",
+            "solves": 0
+        },
+        {
+            "id": "level1m",
+            "name": "Level 1M: Phi3 with task_tracker_phi3_medium",
+            "scenario": "level1m",
+            "description": "Phi3 model with task_tracker_phi3_medium defense",
+            "solves": 5
+        },
+        {
+            "id": "level1n",
+            "name": "Level 1N: GPT4-o-mini with task_tracker_phi3_medium",
+            "scenario": "level1n",
+            "description": "GPT4-o-mini model with task_tracker_phi3_medium defense",
+            "solves": 0
+        },
+        {
+            "id": "level1o",
+            "name": "Level 1O: Phi3 with task_tracker_phi3.5_moe",
+            "scenario": "level1o",
+            "description": "Phi3 model with task_tracker_phi3.5_moe defense",
+            "solves": 3
+        },
+        {
+            "id": "level1p",
+            "name": "Level 1P: GPT4-o-mini with task_tracker_phi3.5_moe",
+            "scenario": "level1p",
+            "description": "GPT4-o-mini model with task_tracker_phi3.5_moe defense",
+            "solves": 0
+        },
+        {
+            "id": "level1q",
+            "name": "Level 1Q: Phi3 with task_tracker_phi4",
+            "scenario": "level1q",
+            "description": "Phi3 model with task_tracker_phi4 defense",
+            "solves": 3
+        },
+        {
+            "id": "level1r",
+            "name": "Level 1R: GPT4-o-mini with task_tracker_phi4",
+            "scenario": "level1r",
+            "description": "GPT4-o-mini model with task_tracker_phi4 defense",
+            "solves": 0
+        },
+        {
+            "id": "level1s",
+            "name": "Level 1S: Phi3 with llm_judge",
+            "scenario": "level1s",
+            "description": "Phi3 model with llm_judge defense",
+            "solves": 1
+        },
+        {
+            "id": "level1t",
+            "name": "Level 1T: GPT4-o-mini with llm_judge",
+            "scenario": "level1t",
+            "description": "GPT4-o-mini model with llm_judge defense",
+            "solves": 0
+        },
+        {
+            "id": "level1u",
+            "name": "Level 1U: Phi3 with all",
+            "scenario": "level1u",
+            "description": "Phi3 model with all defenses",
+            "solves": 0
+        },
+        {
+            "id": "level1v",
+            "name": "Level 1V: GPT4-o-mini with all",
+            "scenario": "level1v",
+            "description": "GPT4-o-mini model with all defenses",
+            "solves": 0
+        },
+        {
+            "id": "level2k",
+            "name": "Level 2K: Phi3 with promptshield",
+            "scenario": "level2k",
+            "description": "Phi3 model with promptshield defense (Level 2)",
+            "solves": 4
+        },
+        {
+            "id": "level2l",
+            "name": "Level 2L: GPT4-o-mini with promptshield",
+            "scenario": "level2l",
+            "description": "GPT4-o-mini model with promptshield defense (Level 2)",
+            "solves": 0
+        },
+        {
+            "id": "level2m",
+            "name": "Level 2M: Phi3 with task_tracker_phi3_medium",
+            "scenario": "level2m",
+            "description": "Phi3 model with task_tracker_phi3_medium defense (Level 2)",
+            "solves": 4
+        },
+        {
+            "id": "level2n",
+            "name": "Level 2N: GPT4-o-mini with task_tracker_phi3_medium",
+            "scenario": "level2n",
+            "description": "GPT4-o-mini model with task_tracker_phi3_medium defense (Level 2)",
+            "solves": 0
+        },
+        {
+            "id": "level2o",
+            "name": "Level 2O: Phi3 with task_tracker_phi3.5_moe",
+            "scenario": "level2o",
+            "description": "Phi3 model with task_tracker_phi3.5_moe defense (Level 2)",
+            "solves": 3
+        },
+        {
+            "id": "level2p",
+            "name": "Level 2P: GPT4-o-mini with task_tracker_phi3.5_moe",
+            "scenario": "level2p",
+            "description": "GPT4-o-mini model with task_tracker_phi3.5_moe defense (Level 2)",
+            "solves": 0
+        },
+        {
+            "id": "level2q",
+            "name": "Level 2Q: Phi3 with task_tracker_phi4",
+            "scenario": "level2q",
+            "description": "Phi3 model with task_tracker_phi4 defense (Level 2)",
+            "solves": 3
+        },
+        {
+            "id": "level2r",
+            "name": "Level 2R: GPT4-o-mini with task_tracker_phi4",
+            "scenario": "level2r",
+            "description": "GPT4-o-mini model with task_tracker_phi4 defense (Level 2)",
+            "solves": 0
+        },
+        {
+            "id": "level2s",
+            "name": "Level 2S: Phi3 with llm_judge",
+            "scenario": "level2s",
+            "description": "Phi3 model with llm_judge defense (Level 2)",
+            "solves": 1
+        },
+        {
+            "id": "level2t",
+            "name": "Level 2T: GPT4-o-mini with llm_judge",
+            "scenario": "level2t",
+            "description": "GPT4-o-mini model with llm_judge defense (Level 2)",
+            "solves": 0
+        },
+        {
+            "id": "level2u",
+            "name": "Level 2U: Phi3 with all",
+            "scenario": "level2u",
+            "description": "Phi3 model with all defenses (Level 2)",
+            "solves": 0
+        },
+        {
+            "id": "level2v",
+            "name": "Level 2V: GPT4-o-mini with all",
+            "scenario": "level2v",
+            "description": "GPT4-o-mini model with all defenses (Level 2)",
+            "solves": 0
+        }
+    ]
+} 
