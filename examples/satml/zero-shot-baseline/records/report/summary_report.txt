@@ -1,0 +1,57 @@
+# LLM Mail Injection Attacks Analysis Report
+
+## Overall Statistics
+Total completed tests: 197
+Tests by level: {
+  "level1m": 33,
+  "level1n": 33,
+  "level1k": 32,
+  "level1o": 33,
+  "level1q": 33,
+  "level1s": 33
+}
+
+## Objective Completion Counts
+email.retrieved: 197 (100.00%)
+defense.undetected: 63 (31.98%)
+exfil.sent: 3 (1.52%)
+exfil.destination: 2 (1.02%)
+exfil.content: 1 (0.51%)
+
+## Top Attack Types by Objective
+
+### email.retrieved
+friendly_request: 6
+multi_language_attack_nepali: 6
+payload_splitting: 6
+multi_turn_compressed: 6
+contextual_role_confusion: 6
+multi_language_attack_japanese: 6
+multi_language_attack_amharic: 6
+important_test: 6
+encoded_request: 6
+multi_language_attack_urdu: 6
+
+### defense.undetected
+code_injection: 5
+encoded_request: 4
+reasoning_based_exploit: 4
+friendly_request: 3
+adversarial_suffix: 3
+multi_language_attack_nepali: 3
+multi_language_attack_japanese: 3
+multi_language_attack_amharic: 3
+many_shot_jailbreak: 3
+multi_language_attack_arabic: 3
+
+### exfil.sent
+multi_turn_compressed: 1
+urgent_action: 1
+system_override: 1
+
+### exfil.destination
+multi_turn_compressed: 1
+system_override: 1
+
+### exfil.content
+multi_turn_compressed: 1
