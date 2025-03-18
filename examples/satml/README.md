@@ -10,6 +10,19 @@ This framework evaluates different prompts against various LLM Mail Injection de
 - `framework.py`: Main evaluation script
 - `.env`: Contains API key (not checked into version control)
 
+## Experiment plans:
+
+We have several experiment setups, including:
+
+- zero-shot baseline based on the prompt techs [zero-shot-baseline/records/report/summary_report.md](zero-shot-baseline/records/report/summary_report.md)
+- few-shot with feedback sync based on the attack techs results
+- few-shot with feedback to combine different attack techs
+- GraphRAG-based prompt sync
+
+See prompts: [meta_prompt.md](meta_prompt.md)
+
+We will evaluate the attack success rate of the prompts against the defense levels and different defense teches.
+
 ## Requirements
 
 Install the required packages:
