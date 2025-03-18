@@ -8,8 +8,8 @@ from datetime import datetime
 # Define paths
 ATTACK_TECH_MD = "docs/attack_tech.md"
 RECORDS_DIR = "examples/satml/zero-shot-baseline/records"
-OUTPUT_DIR = "examples/satml/enhanced_prompts"
-OUTPUT_JSON = os.path.join(OUTPUT_DIR, "enhanced_prompts.json")
+OUTPUT_DIR = "examples/satml"
+OUTPUT_JSON = os.path.join(OUTPUT_DIR, "enhanced_meta_prompts.json")
 
 def get_attack_descriptions():
     """Extract attack technique descriptions from the markdown file."""
